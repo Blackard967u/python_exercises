@@ -1,0 +1,13 @@
+edad = 0
+
+#el bucle while ejecuta un fragmento de código mientras 
+# se cumpla una condición
+while edad < 18:
+    #es importante considerar reglas para que el bucle no se 
+    #ejecute infinitamente
+    edad+=1
+    print("Aún eres menor de edad, tienes "+ str(edad))
+print("Ahora eres mayor de edad, felicidades") 
+
+
+
