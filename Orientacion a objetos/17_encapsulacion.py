@@ -55,3 +55,29 @@ dia = mi_fecha.setDia(3)
 
 print(dia)
 
+print("-----------------------------------")
+
+class Fecha(object):
+    def __init__(self):
+        self.__dia = 1
+    def getDia(self):
+        return self.__dia
+
+    def setDia(self, dia):
+        if dia > 0 and dia < 31:
+            self.__dia = dia
+            return self.__dia
+        else:
+            print("Error")
+
+    dia = property(getDia, setDia)
+
+
+mi_fecha = Fecha()
+
+dia = mi_fecha.getDia()
+
+print(dia)
+dia = mi_fecha.setDia(3)
+
+print(dia)
