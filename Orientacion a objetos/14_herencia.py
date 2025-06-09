@@ -1,6 +1,6 @@
 # En el lenguaje orientado a objetos cuando hacemos que una 
 # clase (subclase) herede todos los atributos y métodos de 
-# otra clase (superclase) se llama Herencia}
+# otra clase (superclase) se llama Herencia
 
 # Al acto de heredar de otra clase también se le conoce a menudo como
 # "extender de una clase"
