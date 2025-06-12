@@ -45,3 +45,120 @@ print(ln[::2])
 ln[0:2] = [False, "Attr añadido", "otro atributo extra"]
 
 print(ln[:])
+
+# ---------------------------------Métodos comunes------------------------------------------------
+print("------------------------------------------------------")
+#lista 
+l = [32, True, "una lista", [1, 2], True]
+
+
+l.append([23, 24])
+
+print(l)
+
+# append() permite añadir un objeto al final de la lista
+
+print("------------------------------------------------------")
+
+
+l.extend(["c", "d"])
+
+print(l)
+
+# extend() añade varios elementos al ginal de la lista
+
+print("------------------------------------------------------")
+
+l.insert(1, 2)
+
+print(l)
+
+# insert() añade un elemento en una posicion específica
+
+print("------------------------------------------------------")
+
+l.remove(True)
+
+print(l)
+
+# remove() elimina la primera aparición de un documento
+
+print("------------------------------------------------------")
+
+ultimo = l.pop()
+
+print(ultimo)
+print(l)
+
+# pop() elimina y devuelve el último elemento
+
+print("------------------------------------------------------")
+
+index = l.index(True)
+
+print(index)
+
+# index() devuelve el indice de la primera aparición del elemento
+
+print("------------------------------------------------------")
+
+li = l.count(True)
+
+print(li)
+
+# count() permite contar la cantidad de veces que aparece el valor en la lista
+
+print("------------------------------------------------------")
+
+l.reverse()
+
+print(l)
+
+# reverse() permite revertir el orden de la lista
+
+print("------------------------------------------------------")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+l.clear()
+
+print(l)
+
+# clear() elimina todos los elementos de la lista
+
+print("------------------------------------------------------")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
